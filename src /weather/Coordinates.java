@@ -1,20 +1,19 @@
-package Coordinates {
+package Coordinates;
 
-public class Coordinates {
-    private int longitude;
-    private int latitude;
-    private int height;
+	public class Coordinates {
+	    private int longitude;
+	    private int latitude;
+	    private int height;
 
-    public getLongitude() {
-        return longitude;
+	    public getLongitude() {
+	        return longitude;
+		}
+		
+		public getLatitude() {
+	        return latitude;
+		}
+		
+		public getHeight() {
+	        return height;
+	    }
 	}
-	
-	public getLatitude() {
-        return latitude;
-	}
-	
-	public getHeight() {
-        return height;
-	}
-	}
-}
