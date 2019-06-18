@@ -1,6 +1,6 @@
 // import coordinates.Coordinates;
 
-public class Baloon extends Aircraft {
+public class Baloon extends Aircraft implements Flyable{
 	// Coordinates coordinates = new Coordinates();
 	
 	protected Baloon(String _name, Coordinates coordinates) {

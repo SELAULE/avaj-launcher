@@ -1,6 +1,7 @@
 import coordinates.Coordinates;
 
 public  abstract class Aircraft {
+
     protected long id;
     protected string name;
     protected Coordinates coordinates;
