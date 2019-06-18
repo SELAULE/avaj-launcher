@@ -1,4 +1,8 @@
-public class Tower implements Flyable {
+import java.util.*;
+
+
+abstract class Tower implements Flyable {
+	
 	public void register(flyable Flyable) {
 
 	}
@@ -8,6 +12,6 @@ public class Tower implements Flyable {
 	}
 
 	protected void conditionChanged() {
-		
+			
 	}
 }

@@ -1,19 +1,25 @@
-package Coordinates;
+package coordinates;
 
 	public class Coordinates {
-	    private int longitude;
-	    private int latitude;
-	    private int height;
+	    private int _longitude;
+	    private int _latitude;
+	    private int _height;
+
+		protected Coordinates(int longitude, int latitude, int height) {
+			this._height = height;
+			this._latitude = latitude;
+			this._longitude = longitude;
+		}
 
 	    public getLongitude() {
-	        return longitude;
+	        return _longitude;
 		}
 		
 		public getLatitude() {
-	        return latitude;
+	        return _latitude;
 		}
 		
 		public getHeight() {
-	        return height;
+	        return _height;
 	    }
 	}
