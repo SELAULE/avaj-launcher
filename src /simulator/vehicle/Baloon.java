@@ -1,17 +1,26 @@
-// import coordinates.Coordinates;
+package simulator.vehicle;
 
-public class Baloon extends Aircraft implements Flyable{
+import simulator.vehicle.Aircraft;
+import simulator.vehicle.Flyable;
+import weather.Coordinates;
+import weather.WeatherTower;
+
+public class Baloon extends Aircraft implements Flyable {
 	// Coordinates coordinates = new Coordinates();
-	
-	protected Baloon(String _name, Coordinates coordinates) {
+    WeatherTower weatherTower = new WeatherTower();
+
+
+    public Baloon(String _name, Coordinates coordinates) {
 		super(_name, coordinates);
 	}
 
-	public void updateCondition() {
-
+	@Override
+	public void updateConditions() {
+        
 	}
 
-	public void registerTower(weatherTower WeatherTower) {
+	@Override
+	public void registerTower(WeatherTower WeatherTower) {
 		
 	}
 }

@@ -1,16 +1,19 @@
-import coordinates.Coordinates;
+package simulator.vehicle;
+
+
+import weather.Coordinates;
 
 public  abstract class Aircraft {
 
     protected long id;
-    protected string name;
+    protected String name;
     protected Coordinates coordinates;
     private static long idCounter;
 
-    protected Aircraft (String _name, Coordinates coordinates) {
+    protected Aircraft (String _name, Coordinates _coordinates) {
         name = _name;
         id = idCounter;
-        // coordinates = coordinates;
+         coordinates = _coordinates;
     }
 
     private long nextId() {

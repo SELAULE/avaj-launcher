@@ -1,18 +1,25 @@
-// import coordinates.Coordinates;
+package simulator.vehicle;
+
+import weather.Coordinates;
+import weather.WeatherTower;
 
 public class Helicopter extends Aircraft implements Flyable {
 
     WeatherTower weatherTower = new WeatherTower();
 
-	protected Helicopter (String _name, Coordinates coordinates) {
-		super(_name, coordinates);
+	public Helicopter (String _name, Coordinates coordinates) {
+	    super(_name, coordinates);
 	}
 
-	public void updateCondition() {
 
+
+    @Override
+	public void updateConditions() {
+
+//	    if ()
 	}
-
-	public void registerTower(weatherTower) {
+    @Override
+	public void registerTower(WeatherTower weatherTower) {
 		
 	}
 }
