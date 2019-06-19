@@ -16,7 +16,7 @@ public class Baloon extends Aircraft implements Flyable {
 
 	@Override
 	public void updateConditions() {
-        
+
 	}
 
 	@Override
