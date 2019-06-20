@@ -7,7 +7,7 @@ public class WeatherProvider {
     private static String[] weather;
     private static  WeatherProvider weatherProvider;
 
-    private WeatherProvider() {
+    public WeatherProvider() {
 
         this.weather = new String[] {"RAIN", "FOG", "SUN", "SNOW"};
 	}

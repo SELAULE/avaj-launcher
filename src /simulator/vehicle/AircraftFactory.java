@@ -32,12 +32,5 @@ public abstract class AircraftFactory {
 //		return flyable;
 	}
 
-//	public void main(String[] args) {
-//	    try {
-//            AircraftFactory craft = new AircraftFactory();
-//            craft.newAircraft("Baloon", "b4", 34, 35, 2);
-//        } catch (Exception e) {
-//	        System.out.println("This is not working ");
-//        }
-//	}
+
 }
