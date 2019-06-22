@@ -1,6 +1,7 @@
 package simulator.vehicle;
 
 //import vehicle.*;
+import Exeptions.CanNotBeNegative;
 import weather.*;
 
 public abstract class AircraftFactory {
@@ -8,6 +9,10 @@ public abstract class AircraftFactory {
 	public Flyable	newAircraft(String type, String name, int longitude, int latitude, int height) {
 
 		Coordinates coordinates = new Coordinates(longitude, latitude, height);
+
+		if (coordinates.get_latitude() < 0 || coordinates.get_longitude() < 0) {
+		    throw new CanNotBeNegative("Latitude or Longitude can not be negative ", errmes);
+        }
 
 		switch (type) {
             case "Baloon":
@@ -25,12 +30,9 @@ public abstract class AircraftFactory {
                 return jetPlane;
 //                break;
             default:
-//                Baloon aircraft = new Baloon(name, coordinates);
                 return null;
 //                break;
         }
-//		return flyable;
+
 	}
-
-
 }

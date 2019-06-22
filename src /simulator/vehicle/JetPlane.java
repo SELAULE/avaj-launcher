@@ -7,7 +7,9 @@ import weather.WeatherTower;
 
 public class JetPlane extends Aircraft implements Flyable {
 
+
     WeatherProvider weatherProvider = new WeatherProvider();
+    WeatherTower weatherTower = new WeatherTower();
 
 
     public JetPlane(String _name, Coordinates _coordinates) {
@@ -23,7 +25,9 @@ public class JetPlane extends Aircraft implements Flyable {
         if (weatherProvider.getCurrentWeather(coordinates) == "SUN") {
             Coordinates newCoordinates = new Coordinates(coordinates.get_longitude(), coordinates.get_latitude() + 10, coordinates.get_height() + 2);
             coordinates = newCoordinates;
+            writeToFile("This is the list : " + weatherTower.getList());
             writeToFile("Shit is hot there's nothing more to cool it down");
+
         }
         else if (weatherProvider.getCurrentWeather(coordinates) == "RAIN" ) {
             Coordinates newCoordinates = new Coordinates(coordinates.get_longitude(), coordinates.get_latitude() + 5, coordinates.get_height());

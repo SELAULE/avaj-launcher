@@ -18,7 +18,7 @@ public  abstract class Aircraft {
     public Aircraft (String _name, Coordinates _coordinates) {
         name = _name;
         id = nextId();
-         coordinates = _coordinates;
+        coordinates = _coordinates;
     }
 
     private long nextId() {
@@ -31,7 +31,6 @@ public  abstract class Aircraft {
         try(FileReader fileReader = new FileReader("source.txt")) {
             int ch = fileReader.read();
             while(ch != -1) {
-                System.out.print((char)ch);
                 ch = fileReader.read();
             }
         }

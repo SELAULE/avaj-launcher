@@ -41,6 +41,10 @@ public class Helicopter extends Aircraft implements Flyable {
             coordinates = newCoordinates;
             writeToFile("We not in fucked England okay");
         }
+
+        if (coordinates.get_height() <= 0) {
+            weatherTower.unregister(this);
+        }
 	}
     @Override
 	public void registerTower(WeatherTower weatherTower) {
