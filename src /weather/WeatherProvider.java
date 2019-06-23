@@ -5,21 +5,25 @@ package weather;
 public class WeatherProvider {
 
     private static String[] weather;
-    private static  WeatherProvider weatherProvider;
+    private static WeatherProvider weatherProvider = new WeatherProvider();
+//    private static  WeatherProvider weatherProvider;
 
-    public WeatherProvider() {
+    private WeatherProvider() {
 
         this.weather = new String[] {"RAIN", "FOG", "SUN", "SNOW"};
 	}
-	
-	public	static	WeatherProvider getProvider() {
 
-        WeatherProvider weatherProvider = new WeatherProvider();
+    public static WeatherProvider getInstance() {
 
+//        if (weatherProvider == null)
+//        {
+//            weatherProvider = new WeatherProvider();
+//        }
         return weatherProvider;
-	}
+    }
 
-	public String getCurrentWeather(Coordinates coordinates) {
+
+    public String getCurrentWeather(Coordinates coordinates) {
         int sum = coordinates.get_height() + coordinates.get_latitude() + coordinates.get_longitude();
 
         return (weather[sum % 4]);
