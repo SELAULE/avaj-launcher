@@ -8,7 +8,7 @@ import weather.WeatherTower;
 public class JetPlane extends Aircraft implements Flyable {
 
 
-    WeatherProvider weatherProvider = new WeatherProvider();
+    WeatherProvider weatherProvider;
     WeatherTower weatherTower = new WeatherTower();
 
 
@@ -50,7 +50,7 @@ public class JetPlane extends Aircraft implements Flyable {
 
     @Override
     public void registerTower(WeatherTower WeatherTower) {
-        if (coordinates.get_height() == 0) {
-        }
+        weatherTower.register(this);
+        writeToFile(this.name + "Shit is registered");
     }
 }

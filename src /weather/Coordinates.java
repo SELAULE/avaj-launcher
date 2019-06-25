@@ -6,9 +6,19 @@ package weather;
 	    private int _height;
 
 		public Coordinates(int longitude, int latitude, int height) {
-			this._height = height;
-			this._latitude = latitude;
-			this._longitude = longitude;
+		    if (height < 0)
+		        this._height = 0;
+		    else
+		        this._height = height;
+
+		    if (latitude < 0)
+                this._latitude = 0;
+		    else
+		        this._latitude = latitude;
+			if (longitude < 0)
+                this._longitude = 0;
+			else
+			    this._longitude = longitude;
 		}
 
         public int get_longitude() {

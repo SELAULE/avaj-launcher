@@ -7,7 +7,7 @@ import weather.WeatherTower;
 public class Helicopter extends Aircraft implements Flyable {
 
     WeatherTower weatherTower = new WeatherTower();
-    WeatherProvider weatherProvider = new WeatherProvider();
+    WeatherProvider weatherProvider;
 
 
     public Helicopter (String _name, Coordinates coordinates) {
@@ -46,8 +46,10 @@ public class Helicopter extends Aircraft implements Flyable {
             weatherTower.unregister(this);
         }
 	}
+
     @Override
 	public void registerTower(WeatherTower weatherTower) {
-		
+        weatherTower.register(this);
+        writeToFile(this.name + "Shit is registered");
 	}
 }

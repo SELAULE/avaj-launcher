@@ -9,7 +9,7 @@ import weather.WeatherTower;
 public class Baloon extends Aircraft implements Flyable {
 	// Coordinates coordinates = new Coordinates();
     WeatherTower weatherTower = new WeatherTower();
-    WeatherProvider weatherProvider = new WeatherProvider();
+    WeatherProvider weatherProvider;
 
 
     public Baloon(String _name, Coordinates coordinates) {
@@ -41,11 +41,11 @@ public class Baloon extends Aircraft implements Flyable {
             coordinates = newCoordinates;
             writeToFile("We not in fucked England okay");
         }
-
 	}
 
 	@Override
 	public void registerTower(WeatherTower WeatherTower) {
-
+        weatherTower.register(this);
+        writeToFile(this.name + " Shit is registered");
 	}
 }

@@ -4,21 +4,17 @@ package weather;
 
 public class WeatherProvider {
 
-    private static String[] weather;
-    private static WeatherProvider weatherProvider = new WeatherProvider();
-//    private static  WeatherProvider weatherProvider;
+    private static String[] weather = new String[] {"RAIN", "FOG", "SUN", "SNOW"};
+    private static WeatherProvider weatherProvider = null;
 
-    private WeatherProvider() {
+    private WeatherProvider() { }
 
-        this.weather = new String[] {"RAIN", "FOG", "SUN", "SNOW"};
-	}
+    public static WeatherProvider getProvider() {
 
-    public static WeatherProvider getInstance() {
-
-//        if (weatherProvider == null)
-//        {
-//            weatherProvider = new WeatherProvider();
-//        }
+        if (weatherProvider == null)
+        {
+            weatherProvider = new WeatherProvider();
+        }
         return weatherProvider;
     }
 
