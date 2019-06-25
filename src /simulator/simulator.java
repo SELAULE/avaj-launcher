@@ -1,5 +1,6 @@
 package simulator;
 
+import FileManagement.FileValidation;
 import FileManagement.Reading;
 
 import java.io.*;
@@ -19,7 +20,13 @@ public class simulator {
 //            }
 //
 //            bufferedReader.close();
-            files.OpenFile(args[0]);
+            String[] test = files.OpenFile(args[0]);
+            System.out.println(test[1]);
+            FileValidation f = new FileValidation();
+            f.validate(test);
+            //validate whatever
+
+
         }
         catch(FileNotFoundException ex) {
             System.out.println("Unable to open file '" + args[0] + "'");
