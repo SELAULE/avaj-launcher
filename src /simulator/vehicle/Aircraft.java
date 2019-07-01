@@ -24,33 +24,4 @@ public  abstract class Aircraft {
     private long nextId() {
         return (idCounter++);
     }
-
-    public void writeToFile(String str) {
-
-        // read the content from file
-        try(FileReader fileReader = new FileReader("source.txt")) {
-            int ch = fileReader.read();
-            while(ch != -1) {
-                ch = fileReader.read();
-            }
-        }
-
-        catch (FileNotFoundException e) {
-            System.out.print("File Not Found");
-        }
-
-        catch (IOException e) {
-            System.out.println("An error happened");
-        }
-
-        try(FileWriter fileWriter = new FileWriter("src/simulation.txt")) {
-            String fileContent = str;
-            fileWriter.write(fileContent);
-        } catch (IOException e) {
-            System.out.println("Fail to write");
-        } catch (Exception e) {
-            System.out.println("There's nothing I can do ");
-        }
-
-    }
 }

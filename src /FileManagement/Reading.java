@@ -18,7 +18,6 @@ public class Reading {
             fileData[i] = filereader.readLine();
         }
         filereader.close();
-//        System.out.println( " This is the data : " + fileData[0] + "\n");
         return fileData;
     }
 
@@ -33,7 +32,6 @@ public class Reading {
         while (( aline = bufReader.readLine() ) != null) {
             numberOfLines++;
         }
-//        System.out.println("\n this is the num of lines : " + numberOfLines);
         return numberOfLines;
     }
 
