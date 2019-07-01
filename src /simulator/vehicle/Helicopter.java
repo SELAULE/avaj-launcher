@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class Helicopter extends Aircraft implements Flyable {
 
-    WeatherTower weatherTower = new WeatherTower();
+    WeatherTower weatherTower;
     WeatherProvider weatherProvider;
     Writing write = new Writing("simulator.txt", true);
 
@@ -25,16 +25,7 @@ public class Helicopter extends Aircraft implements Flyable {
 
         String newWeather = weatherTower.getWeather(this.coordinates);
 
-        if (coordinates.get_height() <= 0) {
-            this.weatherTower.unregister(this);
-            try {
-                write.WriteToFile( "Tower says: Helicopter#" + this.name + "(" + this.id + ")" + " unregistered to weather tower.");
-            }catch (IOException ex) {
-                System.out.print("Error Writing to a file");
-            }
-        }
-
-        else if (newWeather == "SUN") {
+        if (newWeather == "SUN") {
             Coordinates newCoordinates = new Coordinates(coordinates.get_longitude(), coordinates.get_latitude() + 10, coordinates.get_height() + 2);
             coordinates = newCoordinates;
             try {
@@ -72,10 +63,20 @@ public class Helicopter extends Aircraft implements Flyable {
                 System.out.print("Error Writing to a file");
             }
         }
+
+        if (coordinates.get_height() <= 0) {
+            this.weatherTower.unregister(this);
+            try {
+                write.WriteToFile( "Tower says: Helicopter#" + this.name + "(" + this.id + ")" + " unregistered to weather tower.");
+            }catch (IOException ex) {
+                System.out.print("Error Writing to a file");
+            }
+        }
 	}
 
     @Override
 	public void registerTower(WeatherTower weatherTower) {
+        this.weatherTower = weatherTower;
         weatherTower.register(this);
         try {
             write.WriteToFile( "Tower says: Helicopter#" + this.name + "(" + this.id + ")" + " registered to weather tower.");

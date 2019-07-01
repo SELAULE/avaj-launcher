@@ -10,7 +10,7 @@ import java.io.IOException;
 
 public class JetPlane extends Aircraft implements Flyable {
     WeatherProvider weatherProvider;
-    WeatherTower weatherTower = new WeatherTower();
+    WeatherTower weatherTower;// = new WeatherTower();
     Writing write = new Writing("simulator.txt", true);
 
 
@@ -26,17 +26,7 @@ public class JetPlane extends Aircraft implements Flyable {
 
         String newWeather = weatherTower.getWeather(coordinates);
 
-        if (coordinates.get_height() <= 0) {
-            this.weatherTower.unregister(this);
-            try {
-                write.WriteToFile( "Tower  says: JetPlane#" + this.name + "(" + this.id + ")" + " unregistered to weather tower.");
-            }catch (IOException ex) {
-                System.out.print("Error Writing to a file");
-            }
-        }
-
-
-        if (newWeather == "SUN") {
+         if (newWeather == "SUN") {
             Coordinates newCoordinates = new Coordinates(coordinates.get_longitude(), coordinates.get_latitude() + 10, coordinates.get_height() + 2);
             coordinates = newCoordinates;
             try {
@@ -77,11 +67,23 @@ public class JetPlane extends Aircraft implements Flyable {
             }
         }
 
+        if (coordinates.get_height() <= 0) {
+            this.weatherTower.unregister(this);
+            try {
+                write.WriteToFile( "Tower  says: JetPlane#" + this.name + "(" + this.id + ")" + " unregistered to weather tower.");
+            }catch (IOException ex) {
+                System.out.print("Error Writing to a file");
+            }
+        }
+
     }
 
     @Override
-    public void registerTower(WeatherTower WeatherTower) {
-        weatherTower.register(this);
+    public void registerTower(WeatherTower weatherTower) {
+        this.weatherTower = weatherTower;
+
+        this.weatherTower.register(this);
+
         try {
             write.WriteToFile( "Tower says: JetPlane#" + this.name + "(" + this.id + ")" + " registered to weather tower.");
         }catch (IOException ex) {

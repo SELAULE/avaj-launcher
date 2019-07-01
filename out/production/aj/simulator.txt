@@ -1,9 +1,219 @@
- Tower says: Baloon# B1(0) registered to weather tower.
- Tower says: Baloon# B2(1) registered to weather tower.
- Tower says: JetPlane#J1(2) registered to weather tower.
- Tower says: Helicopter#H1(3) registered to weather tower.
- Tower says: Helicopter#H2(4) registered to weather tower.
- Tower says: Helicopter#H3(5) registered to weather tower.
- Tower says: Baloon# B3(6) registered to weather tower.
- Tower says: JetPlane#J2(7) registered to weather tower.
- Tower says: Helicopter#H4(8) registered to weather tower.
+Tower says: Baloon#B1(0) registered to weather tower.
+Tower says: Baloon#B2(1) registered to weather tower.
+Tower says: JetPlane#J1(2) registered to weather tower.
+Tower says: Baloon#B3(3) registered to weather tower.
+Tower says: JetPlane#J2(4) registered to weather tower.
+Baloon#B1(0)We not in fucked England okay
+Baloon#B2(1)We not in fucked England okay
+JetPlane#J1(2)We not in fucked England okay
+Baloon#B3(3)We not in fucked England okay
+JetPlane#J2(4)We not in fucked England okay
+Baloon#B1(0)We not in fucked England okay
+Tower says: Baloon#B1(0) unregistered to weather tower.
+Baloon#B2(1)We not in fucked England okay
+JetPlane#J1(2)We not in fucked England okay
+Baloon#B3(3)We not in fucked England okay
+JetPlane#J2(4)We not in fucked England okay
+Baloon#B1(0)We not in fucked England okay
+Tower says: Baloon#B1(0) unregistered to weather tower.
+Baloon#B2(1)We not in fucked England okay
+JetPlane#J1(2)We not in fucked England okay
+Baloon#B3(3)We not in fucked England okay
+Tower says: Baloon#B3(3) unregistered to weather tower.
+JetPlane#J2(4)We not in fucked England okay
+Baloon#B1(0)We not in fucked England okay
+Tower says: Baloon#B1(0) unregistered to weather tower.
+Baloon#B2(1)We not in fucked England okay
+JetPlane#J1(2)We not in fucked England okay
+Baloon#B3(3)We not in fucked England okay
+Tower says: Baloon#B3(3) unregistered to weather tower.
+JetPlane#J2(4)We not in fucked England okay
+Baloon#B1(0)We not in fucked England okay
+Tower says: Baloon#B1(0) unregistered to weather tower.
+Baloon#B2(1)We not in fucked England okay
+Tower says: Baloon#B2(1) unregistered to weather tower.
+JetPlane#J1(2)We not in fucked England okay
+Tower  says: JetPlane#J1(2) unregistered to weather tower.
+Baloon#B3(3)We not in fucked England okay
+Tower says: Baloon#B3(3) unregistered to weather tower.
+JetPlane#J2(4)We not in fucked England okay
+Baloon#B1(0)We not in fucked England okay
+Tower says: Baloon#B1(0) unregistered to weather tower.
+Baloon#B2(1)We not in fucked England okay
+Tower says: Baloon#B2(1) unregistered to weather tower.
+JetPlane#J1(2)We not in fucked England okay
+Tower  says: JetPlane#J1(2) unregistered to weather tower.
+Baloon#B3(3)We not in fucked England okay
+Tower says: Baloon#B3(3) unregistered to weather tower.
+JetPlane#J2(4)We not in fucked England okay
+Baloon#B1(0)We not in fucked England okay
+Tower says: Baloon#B1(0) unregistered to weather tower.
+Baloon#B2(1)We not in fucked England okay
+Tower says: Baloon#B2(1) unregistered to weather tower.
+JetPlane#J1(2)We not in fucked England okay
+Tower  says: JetPlane#J1(2) unregistered to weather tower.
+Baloon#B3(3)We not in fucked England okay
+Tower says: Baloon#B3(3) unregistered to weather tower.
+JetPlane#J2(4)We not in fucked England okay
+Baloon#B1(0)We not in fucked England okay
+Tower says: Baloon#B1(0) unregistered to weather tower.
+Baloon#B2(1)We not in fucked England okay
+Tower says: Baloon#B2(1) unregistered to weather tower.
+JetPlane#J1(2)We not in fucked England okay
+Tower  says: JetPlane#J1(2) unregistered to weather tower.
+Baloon#B3(3)We not in fucked England okay
+Tower says: Baloon#B3(3) unregistered to weather tower.
+JetPlane#J2(4)We not in fucked England okay
+Baloon#B1(0)We not in fucked England okay
+Tower says: Baloon#B1(0) unregistered to weather tower.
+Baloon#B2(1)We not in fucked England okay
+Tower says: Baloon#B2(1) unregistered to weather tower.
+JetPlane#J1(2)We not in fucked England okay
+Tower  says: JetPlane#J1(2) unregistered to weather tower.
+Baloon#B3(3)We not in fucked England okay
+Tower says: Baloon#B3(3) unregistered to weather tower.
+JetPlane#J2(4)We not in fucked England okay
+Baloon#B1(0)We not in fucked England okay
+Tower says: Baloon#B1(0) unregistered to weather tower.
+Baloon#B2(1)We not in fucked England okay
+Tower says: Baloon#B2(1) unregistered to weather tower.
+JetPlane#J1(2)We not in fucked England okay
+Tower  says: JetPlane#J1(2) unregistered to weather tower.
+Baloon#B3(3)We not in fucked England okay
+Tower says: Baloon#B3(3) unregistered to weather tower.
+JetPlane#J2(4)We not in fucked England okay
+Baloon#B1(0)We not in fucked England okay
+Tower says: Baloon#B1(0) unregistered to weather tower.
+Baloon#B2(1)We not in fucked England okay
+Tower says: Baloon#B2(1) unregistered to weather tower.
+JetPlane#J1(2)We not in fucked England okay
+Tower  says: JetPlane#J1(2) unregistered to weather tower.
+Baloon#B3(3)We not in fucked England okay
+Tower says: Baloon#B3(3) unregistered to weather tower.
+JetPlane#J2(4)We not in fucked England okay
+Baloon#B1(0)We not in fucked England okay
+Tower says: Baloon#B1(0) unregistered to weather tower.
+Baloon#B2(1)We not in fucked England okay
+Tower says: Baloon#B2(1) unregistered to weather tower.
+JetPlane#J1(2)We not in fucked England okay
+Tower  says: JetPlane#J1(2) unregistered to weather tower.
+Baloon#B3(3)We not in fucked England okay
+Tower says: Baloon#B3(3) unregistered to weather tower.
+JetPlane#J2(4)We not in fucked England okay
+Baloon#B1(0)We not in fucked England okay
+Tower says: Baloon#B1(0) unregistered to weather tower.
+Baloon#B2(1)We not in fucked England okay
+Tower says: Baloon#B2(1) unregistered to weather tower.
+JetPlane#J1(2)We not in fucked England okay
+Tower  says: JetPlane#J1(2) unregistered to weather tower.
+Baloon#B3(3)We not in fucked England okay
+Tower says: Baloon#B3(3) unregistered to weather tower.
+JetPlane#J2(4)We not in fucked England okay
+Baloon#B1(0)We not in fucked England okay
+Tower says: Baloon#B1(0) unregistered to weather tower.
+Baloon#B2(1)We not in fucked England okay
+Tower says: Baloon#B2(1) unregistered to weather tower.
+JetPlane#J1(2)We not in fucked England okay
+Tower  says: JetPlane#J1(2) unregistered to weather tower.
+Baloon#B3(3)We not in fucked England okay
+Tower says: Baloon#B3(3) unregistered to weather tower.
+JetPlane#J2(4)We not in fucked England okay
+Baloon#B1(0)We not in fucked England okay
+Tower says: Baloon#B1(0) unregistered to weather tower.
+Baloon#B2(1)We not in fucked England okay
+Tower says: Baloon#B2(1) unregistered to weather tower.
+JetPlane#J1(2)We not in fucked England okay
+Tower  says: JetPlane#J1(2) unregistered to weather tower.
+Baloon#B3(3)We not in fucked England okay
+Tower says: Baloon#B3(3) unregistered to weather tower.
+JetPlane#J2(4)We not in fucked England okay
+Baloon#B1(0)We not in fucked England okay
+Tower says: Baloon#B1(0) unregistered to weather tower.
+Baloon#B2(1)We not in fucked England okay
+Tower says: Baloon#B2(1) unregistered to weather tower.
+JetPlane#J1(2)We not in fucked England okay
+Tower  says: JetPlane#J1(2) unregistered to weather tower.
+Baloon#B3(3)We not in fucked England okay
+Tower says: Baloon#B3(3) unregistered to weather tower.
+JetPlane#J2(4)We not in fucked England okay
+Baloon#B1(0)We not in fucked England okay
+Tower says: Baloon#B1(0) unregistered to weather tower.
+Baloon#B2(1)We not in fucked England okay
+Tower says: Baloon#B2(1) unregistered to weather tower.
+JetPlane#J1(2)We not in fucked England okay
+Tower  says: JetPlane#J1(2) unregistered to weather tower.
+Baloon#B3(3)We not in fucked England okay
+Tower says: Baloon#B3(3) unregistered to weather tower.
+JetPlane#J2(4)We not in fucked England okay
+Baloon#B1(0)We not in fucked England okay
+Tower says: Baloon#B1(0) unregistered to weather tower.
+Baloon#B2(1)We not in fucked England okay
+Tower says: Baloon#B2(1) unregistered to weather tower.
+JetPlane#J1(2)We not in fucked England okay
+Tower  says: JetPlane#J1(2) unregistered to weather tower.
+Baloon#B3(3)We not in fucked England okay
+Tower says: Baloon#B3(3) unregistered to weather tower.
+JetPlane#J2(4)We not in fucked England okay
+Baloon#B1(0)We not in fucked England okay
+Tower says: Baloon#B1(0) unregistered to weather tower.
+Baloon#B2(1)We not in fucked England okay
+Tower says: Baloon#B2(1) unregistered to weather tower.
+JetPlane#J1(2)We not in fucked England okay
+Tower  says: JetPlane#J1(2) unregistered to weather tower.
+Baloon#B3(3)We not in fucked England okay
+Tower says: Baloon#B3(3) unregistered to weather tower.
+JetPlane#J2(4)We not in fucked England okay
+Baloon#B1(0)We not in fucked England okay
+Tower says: Baloon#B1(0) unregistered to weather tower.
+Baloon#B2(1)We not in fucked England okay
+Tower says: Baloon#B2(1) unregistered to weather tower.
+JetPlane#J1(2)We not in fucked England okay
+Tower  says: JetPlane#J1(2) unregistered to weather tower.
+Baloon#B3(3)We not in fucked England okay
+Tower says: Baloon#B3(3) unregistered to weather tower.
+JetPlane#J2(4)We not in fucked England okay
+Baloon#B1(0)We not in fucked England okay
+Tower says: Baloon#B1(0) unregistered to weather tower.
+Baloon#B2(1)We not in fucked England okay
+Tower says: Baloon#B2(1) unregistered to weather tower.
+JetPlane#J1(2)We not in fucked England okay
+Tower  says: JetPlane#J1(2) unregistered to weather tower.
+Baloon#B3(3)We not in fucked England okay
+Tower says: Baloon#B3(3) unregistered to weather tower.
+JetPlane#J2(4)We not in fucked England okay
+Baloon#B1(0)We not in fucked England okay
+Tower says: Baloon#B1(0) unregistered to weather tower.
+Baloon#B2(1)We not in fucked England okay
+Tower says: Baloon#B2(1) unregistered to weather tower.
+JetPlane#J1(2)We not in fucked England okay
+Tower  says: JetPlane#J1(2) unregistered to weather tower.
+Baloon#B3(3)We not in fucked England okay
+Tower says: Baloon#B3(3) unregistered to weather tower.
+JetPlane#J2(4)We not in fucked England okay
+Baloon#B1(0)We not in fucked England okay
+Tower says: Baloon#B1(0) unregistered to weather tower.
+Baloon#B2(1)We not in fucked England okay
+Tower says: Baloon#B2(1) unregistered to weather tower.
+JetPlane#J1(2)We not in fucked England okay
+Tower  says: JetPlane#J1(2) unregistered to weather tower.
+Baloon#B3(3)We not in fucked England okay
+Tower says: Baloon#B3(3) unregistered to weather tower.
+JetPlane#J2(4)We not in fucked England okay
+Baloon#B1(0)We not in fucked England okay
+Tower says: Baloon#B1(0) unregistered to weather tower.
+Baloon#B2(1)We not in fucked England okay
+Tower says: Baloon#B2(1) unregistered to weather tower.
+JetPlane#J1(2)We not in fucked England okay
+Tower  says: JetPlane#J1(2) unregistered to weather tower.
+Baloon#B3(3)We not in fucked England okay
+Tower says: Baloon#B3(3) unregistered to weather tower.
+JetPlane#J2(4)We not in fucked England okay
+Baloon#B1(0)We not in fucked England okay
+Tower says: Baloon#B1(0) unregistered to weather tower.
+Baloon#B2(1)We not in fucked England okay
+Tower says: Baloon#B2(1) unregistered to weather tower.
+JetPlane#J1(2)We not in fucked England okay
+Tower  says: JetPlane#J1(2) unregistered to weather tower.
+Baloon#B3(3)We not in fucked England okay
+Tower says: Baloon#B3(3) unregistered to weather tower.
+JetPlane#J2(4)We not in fucked England okay

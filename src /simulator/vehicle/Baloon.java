@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.lang.*;
 public class Baloon extends Aircraft implements Flyable {
 	// Coordinates coordinates = new Coordinates();
-    WeatherTower weatherTower = new WeatherTower();
+    WeatherTower weatherTower;// = new WeatherTower();
     WeatherProvider weatherProvider;
 
 
@@ -23,14 +23,6 @@ public class Baloon extends Aircraft implements Flyable {
         Writing write = new Writing("simulator.txt", true);
 
         String newWeather = weatherTower.getWeather(this.coordinates);
-        if (coordinates.get_height() <= 0) {
-            this.weatherTower.unregister(this);
-            try {
-                write.WriteToFile( "Tower says: Baloon#" + this.name + "(" + this.id + ")" + " unregistered to weather tower.");
-            }catch (IOException ex) {
-                System.out.print("Error Writing  to a file");
-            }
-        }
 
         if (newWeather == "SUN") {
             Coordinates newCoordinates = new Coordinates(coordinates.get_longitude() + 2, coordinates.get_latitude(), coordinates.get_height() + 4);
@@ -72,12 +64,21 @@ public class Baloon extends Aircraft implements Flyable {
                 System.out.println("Error reading file '");
             }
         }
+
+        if (coordinates.get_height() <= 0) {
+            this.weatherTower.unregister(this);
+            try {
+                write.WriteToFile( "Tower says: Baloon#" + this.name + "(" + this.id + ")" + " unregistered to weather tower.");
+            }catch (IOException ex) {
+                System.out.print("Error Writing  to a file");
+            }
+        }
 	}
 
 	@Override
-	public void registerTower(WeatherTower WeatherTower) {
+	public void registerTower(WeatherTower weatherTower) {
         Writing write = new Writing("simulator.txt", true);
-
+        this.weatherTower = weatherTower;
         weatherTower.register(this);
         try {
             write.WriteToFile( "Tower says: Baloon#" + this.name + "(" + this.id + ")" + " registered to weather tower.");
