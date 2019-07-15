@@ -15,12 +15,12 @@ public class simulator {
         WeatherTower weatherTower = new WeatherTower();
         Writing write = new Writing("simulator.txt", true);
         try {
-            String path = "/Volumes/DISK_IMG/aj/src /test.txt";
+//            String path = "/Volumes/DISK_IMG/aj/src /test.txt";
 
-            String[] test = files.OpenFile(path);
+            String[] test = files.OpenFile(args[0]);
 //            System.out.println(test[1]);
             FileValidation f = new FileValidation();
-            System.out.print(test);
+//            System.out.print(test);
             f.validate(test);
 
             int simulation = Integer.parseInt(test[0]);

@@ -132,3 +132,137 @@ JetPlane#J1(2)What kind of a shitty weather is a FOG
 Helicopter#H3(5)Shit is hot there's nothing more to cool it down
 JetPlane#J2(7)What kind of a shitty weather is a FOG
 Helicopter#H4(8)Shit is hot there's nothing more to cool it down
+Tower says: Baloon#B1(0) registered to weather tower.
+Tower says: Baloon#B2(1) registered to weather tower.
+Tower says: JetPlane#J1(2) registered to weather tower.
+Tower says: Helicopter#H1(3) registered to weather tower.
+Tower says: Helicopter#H2(4) registered to weather tower.
+Tower says: Helicopter#H3(5) registered to weather tower.
+Tower says: Baloon#B3(6) registered to weather tower.
+Tower says: JetPlane#J2(7) registered to weather tower.
+Tower says: Helicopter#H4(8) registered to weather tower.
+Baloon#B1(0)What kind of a shitty weather is a FOG
+Baloon#B2(1)We not in fucked England okay
+JetPlane#J1(2)We not in fucked England okay
+Helicopter#H1(3)We not in fucked England okay
+Helicopter#H2(4)We not in fucked England okay
+Helicopter#H3(5)What kind of a shitty weather is a FOG
+Baloon#B3(6)Shit is hot there's nothing more to cool it down
+JetPlane#J2(7)What kind of a shitty weather is a FOG
+Helicopter#H4(8)I like the smell of the soil on a rainy better land this real quick
+Baloon#B1(0)Shit is hot there's nothing more to cool it down
+Baloon#B2(1)I like the smell of the soil on a rainy better land this real quick
+JetPlane#J1(2)I like the smell of the soil on a rainy better land this real quick
+Helicopter#H1(3)We not in fucked England okay
+Tower says: Helicopter#H1(3) unregistered to weather tower.
+Helicopter#H3(5)Shit is hot there's nothing more to cool it down
+Baloon#B3(6)I like the smell of the soil on a rainy better land this real quick
+JetPlane#J2(7)What kind of a shitty weather is a FOG
+Helicopter#H4(8)What kind of a shitty weather is a FOG
+Baloon#B1(0)I like the smell of the soil on a rainy better land this real quick
+Baloon#B2(1)We not in fucked England okay
+JetPlane#J1(2)What kind of a shitty weather is a FOG
+Helicopter#H2(4)We not in fucked England okay
+Helicopter#H3(5)Shit is hot there's nothing more to cool it down
+Baloon#B3(6)We not in fucked England okay
+JetPlane#J2(7)What kind of a shitty weather is a FOG
+Helicopter#H4(8)Shit is hot there's nothing more to cool it down
+Baloon#B1(0)We not in fucked England okay
+Baloon#B2(1)I like the smell of the soil on a rainy better land this real quick
+JetPlane#J1(2)What kind of a shitty weather is a FOG
+Helicopter#H2(4)We not in fucked England okay
+Helicopter#H3(5)Shit is hot there's nothing more to cool it down
+Baloon#B3(6)I like the smell of the soil on a rainy better land this real quick
+JetPlane#J2(7)What kind of a shitty weather is a FOG
+Helicopter#H4(8)Shit is hot there's nothing more to cool it down
+Baloon#B1(0)I like the smell of the soil on a rainy better land this real quick
+Tower says: Baloon#B1(0) unregistered to weather tower.
+JetPlane#J1(2)What kind of a shitty weather is a FOG
+Helicopter#H2(4)We not in fucked England okay
+Tower says: Helicopter#H2(4) unregistered to weather tower.
+Baloon#B3(6)We not in fucked England okay
+Tower says: Baloon#B3(6) unregistered to weather tower.
+Helicopter#H4(8)Shit is hot there's nothing more to cool it down
+Baloon#B2(1)We not in fucked England okay
+JetPlane#J1(2)What kind of a shitty weather is a FOG
+Helicopter#H3(5)Shit is hot there's nothing more to cool it down
+JetPlane#J2(7)What kind of a shitty weather is a FOG
+Helicopter#H4(8)Shit is hot there's nothing more to cool it down
+Baloon#B2(1)I like the smell of the soil on a rainy better land this real quick
+JetPlane#J1(2)What kind of a shitty weather is a FOG
+Helicopter#H3(5)Shit is hot there's nothing more to cool it down
+JetPlane#J2(7)What kind of a shitty weather is a FOG
+Helicopter#H4(8)Shit is hot there's nothing more to cool it down
+Baloon#B2(1)We not in fucked England okay
+Tower says: Baloon#B2(1) unregistered to weather tower.
+Helicopter#H3(5)Shit is hot there's nothing more to cool it down
+JetPlane#J2(7)What kind of a shitty weather is a FOG
+Helicopter#H4(8)Shit is hot there's nothing more to cool it down
+JetPlane#J1(2)What kind of a shitty weather is a FOG
+Helicopter#H3(5)Shit is hot there's nothing more to cool it down
+JetPlane#J2(7)What kind of a shitty weather is a FOG
+Helicopter#H4(8)Shit is hot there's nothing more to cool it down
+JetPlane#J1(2)What kind of a shitty weather is a FOG
+Helicopter#H3(5)Shit is hot there's nothing more to cool it down
+JetPlane#J2(7)What kind of a shitty weather is a FOG
+Helicopter#H4(8)Shit is hot there's nothing more to cool it down
+JetPlane#J1(2)What kind of a shitty weather is a FOG
+Helicopter#H3(5)Shit is hot there's nothing more to cool it down
+JetPlane#J2(7)What kind of a shitty weather is a FOG
+Helicopter#H4(8)Shit is hot there's nothing more to cool it down
+JetPlane#J1(2)What kind of a shitty weather is a FOG
+Helicopter#H3(5)Shit is hot there's nothing more to cool it down
+JetPlane#J2(7)What kind of a shitty weather is a FOG
+Helicopter#H4(8)Shit is hot there's nothing more to cool it down
+JetPlane#J1(2)What kind of a shitty weather is a FOG
+Helicopter#H3(5)Shit is hot there's nothing more to cool it down
+JetPlane#J2(7)What kind of a shitty weather is a FOG
+Helicopter#H4(8)Shit is hot there's nothing more to cool it down
+JetPlane#J1(2)What kind of a shitty weather is a FOG
+Helicopter#H3(5)Shit is hot there's nothing more to cool it down
+JetPlane#J2(7)What kind of a shitty weather is a FOG
+Helicopter#H4(8)Shit is hot there's nothing more to cool it down
+JetPlane#J1(2)What kind of a shitty weather is a FOG
+Helicopter#H3(5)Shit is hot there's nothing more to cool it down
+JetPlane#J2(7)What kind of a shitty weather is a FOG
+Helicopter#H4(8)Shit is hot there's nothing more to cool it down
+JetPlane#J1(2)What kind of a shitty weather is a FOG
+Helicopter#H3(5)Shit is hot there's nothing more to cool it down
+JetPlane#J2(7)What kind of a shitty weather is a FOG
+Helicopter#H4(8)Shit is hot there's nothing more to cool it down
+JetPlane#J1(2)What kind of a shitty weather is a FOG
+Helicopter#H3(5)Shit is hot there's nothing more to cool it down
+JetPlane#J2(7)What kind of a shitty weather is a FOG
+Helicopter#H4(8)Shit is hot there's nothing more to cool it down
+JetPlane#J1(2)What kind of a shitty weather is a FOG
+Helicopter#H3(5)Shit is hot there's nothing more to cool it down
+JetPlane#J2(7)What kind of a shitty weather is a FOG
+Helicopter#H4(8)Shit is hot there's nothing more to cool it down
+JetPlane#J1(2)What kind of a shitty weather is a FOG
+Helicopter#H3(5)Shit is hot there's nothing more to cool it down
+JetPlane#J2(7)What kind of a shitty weather is a FOG
+Helicopter#H4(8)Shit is hot there's nothing more to cool it down
+JetPlane#J1(2)What kind of a shitty weather is a FOG
+Helicopter#H3(5)Shit is hot there's nothing more to cool it down
+JetPlane#J2(7)What kind of a shitty weather is a FOG
+Helicopter#H4(8)Shit is hot there's nothing more to cool it down
+JetPlane#J1(2)What kind of a shitty weather is a FOG
+Helicopter#H3(5)Shit is hot there's nothing more to cool it down
+JetPlane#J2(7)What kind of a shitty weather is a FOG
+Helicopter#H4(8)Shit is hot there's nothing more to cool it down
+JetPlane#J1(2)What kind of a shitty weather is a FOG
+Helicopter#H3(5)Shit is hot there's nothing more to cool it down
+JetPlane#J2(7)What kind of a shitty weather is a FOG
+Helicopter#H4(8)Shit is hot there's nothing more to cool it down
+JetPlane#J1(2)What kind of a shitty weather is a FOG
+Helicopter#H3(5)Shit is hot there's nothing more to cool it down
+JetPlane#J2(7)What kind of a shitty weather is a FOG
+Helicopter#H4(8)Shit is hot there's nothing more to cool it down
+JetPlane#J1(2)What kind of a shitty weather is a FOG
+Helicopter#H3(5)Shit is hot there's nothing more to cool it down
+JetPlane#J2(7)What kind of a shitty weather is a FOG
+Helicopter#H4(8)Shit is hot there's nothing more to cool it down
+JetPlane#J1(2)What kind of a shitty weather is a FOG
+Helicopter#H3(5)Shit is hot there's nothing more to cool it down
+JetPlane#J2(7)What kind of a shitty weather is a FOG
+Helicopter#H4(8)Shit is hot there's nothing more to cool it down
